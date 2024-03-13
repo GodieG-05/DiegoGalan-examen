@@ -1,3 +1,75 @@
+
+    const empezar = document.getElementById('empezar');
+    const opcion = document.querySelectorAll('opcion')
+    const paginaPrincipal = document.getElementById('paginaPrincipal');
+    const nivelCalidad = document.getElementById('container nivelCalidad');
+    const appNecesaria = document.getElementById('container appNecesaria');
+    const tipoDiseñoApp = document.getElementById('container tipoDiseñoApp');
+    const appMonetizar = document.getElementById('container appMonetizar');
+    const userAutenticacion = document.getElementById('container userAutenticacion');
+    const resumenCotizacion = document.getElementById('container resumenCotizacion');
+
+    function action () {
+        nivelCalidad.style.display = 'block';
+        paginaPrincipal.style.display = 'none'
+
+    }
+    empezar.addEventListener('click', action)
+
+    function opcionesMostrar(mostrar){
+        nivelCalidad.style.display = 'none';
+        mostrar.style.display = 'block';
+        tipoDiseñoApp.style.display = 'none'
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function agregarProveedor(){
 	const proveedores = document.getElementById('listaProveedores')
 	const identificacion = document.getElementById('idProveedor').value;

@@ -9,19 +9,20 @@
 </head>
 <body>
     <div id="container">
-        <div class="paginaPrincipal">
+        <div id="paginaPrincipal">
             <img>
             <div>
                 <h1>¿Cuànto cuesta desarollar mi app GBP?</h1>
+                
                 <h2>Calcula de forma rapida el costo para crear tu app, contestando estas sencillas preguntas</h2>
-                <button>EMPEZAR</button>
+                <button id="empezar">EMPEZAR</button>
             </div>
         </div>
-        <div class="container nivelCalidad">
+        <div id="container nivelCalidad" style="display: none;">
             <h1>¿Què nivel de calidad estàs buscando?</h1>
             <br><br>
             <div class="container-images">
-                <div>
+                <div class="opcion"  onclick="opcionesMostrar('appNecesaria')">
                     <img src="images/answer-1-1.png" width="60%">
                     <h6>Calidad Optima</h6>
                 </div>
@@ -37,7 +38,7 @@
         
             
         </div>
-        <div class="container appNecesaria">
+        <div id="container appNecesaria" style="display: none;">
             <h1>¿Què tipo de App necesitas?</h1>
             <br><br>
             <div class="container-images">
@@ -59,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="container tipoDiseñoApp">
+        <div id="container tipoDiseñoApp" style="display: none;">
             <h1>¿Què diseño quieres que tenga tu App</h1>
             <br><br>
             <div class="container-images">
@@ -81,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="container appMonetizar">
+        <div id="container appMonetizar" style="display: none;">
             <h1>¿Còmo monetizar con tu App?</h1>
             <br><br>
             <div class="container-images">
@@ -103,7 +104,7 @@
                 </div>
             </div>
         </div>
-        <div class="container userAutenticacion">
+        <div id="container userAutenticacion" style="display: none;">
             <br><br>
             <h1>¿Tu App necesita sistema de autenticación?</h1>
             <div class="container-images">
@@ -125,8 +126,30 @@
                 </div>
             </div>
         </div>
-        <div class="container resumenCotizacion">
-
+        <div id="container resumenCotizacion" style="display: none;">
+            <p>¡Bien! ¡Hemos terminado!</p>
+            <h3>¡Compartenos si te ha gustado!</h3>
+            <h2>El costo estimado de tu app es</h2>
+            <input type="image">
+            <h1></h1>
+            <div class="container-images">
+                <div>
+                    <img src="images/answer-5-1.png"  width="60%">
+                    <h6>Si, con redes sociales y email</h6>
+                </div>
+                <div>
+                    <img src="images/answer-5-2.png"  width="60%">
+                    <h6>Si, con email</h6>
+                </div>
+                <div>
+                    <img src="images/answer-5-3.png"  width="60%">
+                    <h6>No</h6>
+                </div>
+                <div>
+                    <img src="images/answer-5-4.png"  width="60%"> 
+                    <h6>No lo sé todavía</h6>
+                </div>
+            </div>
         </div>
         
     </div>

@@ -18,16 +18,20 @@ h6{
     color: white;
     font-size: 1rem;
 }
-.paginaPrincipal div{
+#paginaPrincipal{
+    height: 500px;
+}
+#paginaPrincipal div{
     display: flex;
     flex-direction: column;
+    align-content:space-around;
     align-items: center;
 
 }
-.paginaPrincipal h2, h1{
+#paginaPrincipal h2, h1{
     color: white;
 }
-.paginaPrincipal button{
+#paginaPrincipal button{
     padding: 5px;
     background: linear-gradient(rgb(93, 93, 233), rgb(243, 77, 77));
     color: white;
@@ -36,7 +40,7 @@ h6{
     justify-content: center;
     align-items: center;
 }
-.container h1{
+#container h1{
     display: flex;
     justify-content: center;
 }
