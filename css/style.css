@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+body{
+    padding: 2% ;
+    background-color: rgb(48, 45, 45);
+}
+h1{
+    color: white;
+    font-size: 4rem;
+}
+h6{
+    color: white;
+    font-size: 1rem;
+}
+.paginaPrincipal div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.paginaPrincipal h2, h1{
+    color: white;
+}
+.paginaPrincipal button{
+    padding: 5px;
+    background: linear-gradient(rgb(93, 93, 233), rgb(243, 77, 77));
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+}
+.container-images{
+    display: grid;
+    gap:10px;
+    grid-template: 1fr / repeat(auto-fit, minmax(275px, 1fr));
+}
+.container-images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-images div :hover{
+    opacity: 0.5;
+    position: relative;
+    transition: 1 ease-in-out;
+    bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* img:hover{
+    animation-name: imagen;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+@media (max-width: 520px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    .menu{
+        display: inline;
+    }
+    .dash{
+        display: none;
+    }
+}   main{
+    padding: 1%;
+}
+@keyframes imagen{
+    25%{    
+        border-top: double 3px;
+        border-color: aqua;
+        background-color: aqua;
+        transform: rotate(15deg);
+    }
+    50%{    
+        border-top: double 3px;
+        border-right: double 3px;
+        border-color: blueviolet;
+    }
+    75%{    
+        border-top: double 3px;
+        border-right: double 3px;
+        border-bottom: double 3px;
+        border-color: violet;
+        transform: rotate(-15deg)
+    }
+    100%{
+        border-top: double 3px;
+        border-right: double 3px;
+        border-bottom: double 3px;
+        border-left: double 3px;
+        padding:1%;
+        border-radius: 10px;
+        border-color: springgreen;
+        background-color: violet;
+        transform: scale(1.5);
+    
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
